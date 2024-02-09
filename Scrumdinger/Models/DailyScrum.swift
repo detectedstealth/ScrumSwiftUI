@@ -30,9 +30,6 @@ struct DailyScrum: Identifiable {
         self.theme = theme
     }
     
-    static var emptyScrum: DailyScrum {
-        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
-    }
 }
 
 extension DailyScrum {
@@ -44,6 +41,10 @@ extension DailyScrum {
             self.id = id
             self.name = name
         }
+    }
+    
+    static var emptyScrum: DailyScrum {
+        DailyScrum(title: "", attendees: [], lengthInMinutes: 5, theme: .sky)
     }
 }
 
