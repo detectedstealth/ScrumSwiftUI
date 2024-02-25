@@ -25,6 +25,7 @@
 		02B74C232B6CED35009935A9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B74C222B6CED35009935A9 /* Theme.swift */; };
 		02B74C582B6CEF1F009935A9 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B74C572B6CEF1F009935A9 /* DailyScrum.swift */; };
 		02B74C5A2B6CEFD8009935A9 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B74C592B6CEFD8009935A9 /* CardView.swift */; };
+		02C55F382B8AEFE70080B502 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 02C55F372B8AEFE70080B502 /* ding.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		02B74C222B6CED35009935A9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		02B74C572B6CEF1F009935A9 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		02B74C592B6CEFD8009935A9 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		02C55F372B8AEFE70080B502 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		02B74C122B6CE578009935A9 /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				02C55F362B8AEFD10080B502 /* Resources */,
 				02B74C212B6CED1D009935A9 /* Models */,
 				0216BAAC2B6F5F2F00892110 /* Views */,
 				02B74C132B6CE578009935A9 /* ScrumdingerApp.swift */,
@@ -123,6 +126,14 @@
 				0216BAB12B748D8900892110 /* AVPlayer+Ding.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		02C55F362B8AEFD10080B502 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				02C55F372B8AEFE70080B502 /* ding.wav */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02C55F382B8AEFE70080B502 /* ding.wav in Resources */,
 				02B74C1B2B6CE57A009935A9 /* Preview Assets.xcassets in Resources */,
 				02B74C182B6CE57A009935A9 /* Assets.xcassets in Resources */,
 			);
